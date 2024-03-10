@@ -1,144 +1,139 @@
-
-[uri_license]: https://www.mozilla.org/en-US/MPL/2.0
-[uri_license_image]: https://img.shields.io/badge/MPL-2.0-blue.svg
-
-<h1 align="center">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 align="center" tabindex="-1" class="heading-element" dir="auto">
   <br>
-  <img src="https://penpot.app/images/readme/git-readme-header.png" alt="PENPOT">
-</h1>
-
-<p align="center"><a href="https://www.mozilla.org/en-US/MPL/2.0" rel="nofollow"><img src="https://camo.githubusercontent.com/3fcf3d6b678ea15fde3cf7d6af0e242160366282d62a7c182d83a50bfee3f45e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d504c2d322e302d626c75652e737667" alt="License: MPL-2.0" data-canonical-src="https://img.shields.io/badge/MPL-2.0-blue.svg" style="max-width:100%;"></a>
-<a href="https://gitter.im/penpot/community" rel="nofollow"><img src="https://camo.githubusercontent.com/5b0aecb33434f82a7b158eab7247544235ada0cf7eeb9ce8e52562dd67f614b7/68747470733a2f2f6261646765732e6769747465722e696d2f736572656e6f2d78797a2f636f6d6d756e6974792e737667" alt="Gitter" data-canonical-src="https://badges.gitter.im/sereno-xyz/community.svg" style="max-width:100%;"></a>
-<a href="https://tree.taiga.io/project/penpot/" title="Managed with Taiga.io" rel="nofollow"><img src="https://camo.githubusercontent.com/4a1d1112f0272e3393b1e8da312ff4435418e9e2eb4c0964881e3680f90a653c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d616e61676564253230776974682d54414947412e696f2d3730396631342e737667" alt="Managed with Taiga.io" data-canonical-src="https://img.shields.io/badge/managed%20with-TAIGA.io-709f14.svg" style="max-width:100%;"></a>
-<a href="https://gitpod.io/#https://github.com/penpot/penpot" rel="nofollow"><img src="https://camo.githubusercontent.com/daadb4894128d1e19b72d80236f5959f1f2b47f9fe081373f3246131f0189f6c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476974706f642d72656164792d2d746f2d2d636f64652d626c75653f6c6f676f3d676974706f64" alt="Gitpod ready-to-code" data-canonical-src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" style="max-width:100%;"></a></p>
-
-<p align="center">
-    <a href="https://penpot.app/"><b>Website</b></a> •
-    <a href="https://help.penpot.app/technical-guide/getting-started/"><b>Getting Started</b></a> •
-    <a href="https://help.penpot.app/user-guide/"><b>User Guide</b></a> •
-    <a href="https://help.penpot.app/user-guide/introduction/info/"><b>Tutorials & Info</b></a> •
-    <a href="https://community.penpot.app/"><b>Community</b></a> •
-    <a href="https://twitter.com/penpotapp"><b>Twitter</b></a> •
-    <a href="https://instagram.com/penpot.app"><b>Instagram</b></a> •
-    <a href="https://fosstodon.org/@penpot/"><b>Mastodon</b></a> •
-    <a href="https://www.youtube.com/channel/UCAqS8G72uv9P5HG1IfgnQ9g"><b>Youtube</b></a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/889a3a22c9f69d9bce1643f4f65bbdd01d863050d64682b2c48c5bcb9e635bd9/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d726561646d652d6865616465722e706e67"><img src="https://camo.githubusercontent.com/889a3a22c9f69d9bce1643f4f65bbdd01d863050d64682b2c48c5bcb9e635bd9/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d726561646d652d6865616465722e706e67" alt="笔罐" data-canonical-src="https://penpot.app/images/readme/git-readme-header.png" style="max-width: 100%;"></a>
+</h1><a id="user-content-----" class="anchor" aria-label="永久链接：" href="#----"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p align="center" dir="auto"><a href="https://www.mozilla.org/en-US/MPL/2.0" rel="nofollow"><img src="https://camo.githubusercontent.com/3fcf3d6b678ea15fde3cf7d6af0e242160366282d62a7c182d83a50bfee3f45e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d504c2d322e302d626c75652e737667" alt="许可证：MPL-2.0" style="max-width: 100%;"></a>
+<a href="https://gitter.im/penpot/community" rel="nofollow"><img src="https://camo.githubusercontent.com/5b0aecb33434f82a7b158eab7247544235ada0cf7eeb9ce8e52562dd67f614b7/68747470733a2f2f6261646765732e6769747465722e696d2f736572656e6f2d78797a2f636f6d6d756e6974792e737667" alt="吉特" style="max-width: 100%;"></a>
+<a href="https://tree.taiga.io/project/penpot/" title="由 Taiga.io 管理" rel="nofollow"><img src="https://camo.githubusercontent.com/4a1d1112f0272e3393b1e8da312ff4435418e9e2eb4c0964881e3680f90a653c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d616e61676564253230776974682d54414947412e696f2d3730396631342e737667" alt="由 Taiga.io 管理" style="max-width: 100%;"></a>
+<a href="https://gitpod.io/#https://github.com/penpot/penpot" rel="nofollow"><img src="https://camo.githubusercontent.com/daadb4894128d1e19b72d80236f5959f1f2b47f9fe081373f3246131f0189f6c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476974706f642d72656164792d2d746f2d2d636f64652d626c75653f6c6f676f3d676974706f64" alt="Gitpod 准备编码" style="max-width: 100%;"></a></p>
+<p align="center" dir="auto">
+    <a href="https://penpot.app/" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+    </font></font><a href="https://help.penpot.app/technical-guide/getting-started/" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+    </font></font><a href="https://help.penpot.app/user-guide/" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户指南</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+    </font></font><a href="https://help.penpot.app/user-guide/introduction/info/" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程和信息</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+    </font></font><a href="https://community.penpot.app/" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+    </font></font><a href="https://twitter.com/penpotapp" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Twitter</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> •
+    </font></font><a href="https://instagram.com/penpot.app" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Instagram</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> •
+    </font></font><a href="https://fosstodon.org/@penpot/" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Mastodon</font></font></b></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> •
+    </font></font><a href="https://www.youtube.com/channel/UCAqS8G72uv9P5HG1IfgnQ9g" rel="nofollow"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Youtube</font></font></b></a>
 </p>
-
-![feature-readme](https://user-images.githubusercontent.com/1045247/189871786-0b44f7cf-3a0a-4445-a87b-9919ec398bf7.gif)
-
-🎇 **Penpot Fest exceeded all expectations - it was a complete success!** 🎇 Penpot Fest is our first Design event that brought designers and developers from the Open Source communities and beyond. Watch the replay of the talks on our [Youtube channel](https://www.youtube.com/playlist?list=PLgcCPfOv5v56-fghJo2dHNBqL9zlDTslh) or [Peertube channel](https://peertube.kaleidos.net/w/p/1tWgyJTt8sKbWwCEcBimZW)
-
-Penpot is the first **Open Source** design and prototyping platform meant for cross-domain teams. Non dependent on operating systems, Penpot is web based and works with open standards (SVG). Penpot invites designers all over the world to fall in love with open source while getting developers excited about the design process in return.
-
-## Table of contents ##
-
-- [Why Penpot](#why-penpot)
-- [Getting Started](#getting-started)
-- [Community](#community)
-- [Resources](#resources)
-- [License](#license)
-
-## Why Penpot ##
-
-Penpot makes design and prototyping accessible to every team in the world.
-
-### For cross-domain teams ###
-We have a clear focus on design and code teams and our capabilities reflect exactly that. The less hand-off mindset, the more fun for everyone.
-
-### Multiplatform ###
-Being web based, Penpot is not dependent on operating systems or local installations, you will only need to run a modern browser.
-
-### Open Standards ###
-Using SVG as no other design and prototyping tool does, Penpot files sport compatibility with most of the vectorial tools, are tech friendly and extremely easy to use on the web. We make sure you will always own your work.
-
-<p align="center">
-  <img src="https://penpot.app/images/readme/git-open.png" alt="Open Source" style="width: 65%;">
+<p dir="auto"><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/1045247/189871786-0b44f7cf-3a0a-4445-a87b-9919ec398bf7.gif" data-target="animated-image.originalLink"><img src="https://user-images.githubusercontent.com/1045247/189871786-0b44f7cf-3a0a-4445-a87b-9919ec398bf7.gif" alt="功能自述文件" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://user-images.githubusercontent.com/1045247/189871786-0b44f7cf-3a0a-4445-a87b-9919ec398bf7.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="feature-readme" class="AnimatedImagePlayer-animatedImage" src="https://user-images.githubusercontent.com/1045247/189871786-0b44f7cf-3a0a-4445-a87b-9919ec398bf7.gif" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="814" height="457"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play feature-readme" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play feature-readme">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="Open feature-readme in new window" class="AnimatedImagePlayer-button" href="https://user-images.githubusercontent.com/1045247/189871786-0b44f7cf-3a0a-4445-a87b-9919ec398bf7.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎇 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Penpot Fest超出了所有人的预期——取得了圆满成功！</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎇 Penpot Fest 是我们的第一个设计活动，吸引了来自开源社区及其他领域的设计师和开发人员。</font></font><a href="https://www.youtube.com/playlist?list=PLgcCPfOv5v56-fghJo2dHNBqL9zlDTslh" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我们的Youtube 频道</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font><a href="https://peertube.kaleidos.net/w/p/1tWgyJTt8sKbWwCEcBimZW" rel="nofollow"><font style="vertical-align: inherit;">Peertube 频道</font></a><font style="vertical-align: inherit;">上观看演讲重播</font></font><a href="https://peertube.kaleidos.net/w/p/1tWgyJTt8sKbWwCEcBimZW" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Penpot 是第一个</font><font style="vertical-align: inherit;">面向跨领域团队的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源设计和原型平台。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Penpot 不依赖于操作系统，基于 Web 并采用开放标准 (SVG)。</font><font style="vertical-align: inherit;">Penpot 邀请世界各地的设计师爱上开源，同时让开发人员对设计过程感到兴奋作为回报。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录</font></font></h2><a id="user-content-table-of-contents" class="anchor" aria-label="永久链接：目录" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="#why-penpot"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么选择笔罐</font></font></a></li>
+<li><a href="#getting-started"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a></li>
+<li><a href="#community"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></a></li>
+<li><a href="#resources"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></li>
+<li><a href="#license"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么选择笔罐</font></font></h2><a id="user-content-why-penpot" class="anchor" aria-label="永久链接：为什么选择 Penpot" href="#why-penpot"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Penpot 使世界上每个团队都可以进行设计和原型制作。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于跨域团队</font></font></h3><a id="user-content-for-cross-domain-teams" class="anchor" aria-label="永久链接：适用于跨域团队" href="#for-cross-domain-teams"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们明确关注设计和代码团队，我们的能力恰恰反映了这一点。</font><font style="vertical-align: inherit;">越少放手的心态，对每个人来说就越有趣。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多平台</font></font></h3><a id="user-content-multiplatform" class="anchor" aria-label="永久链接：多平台" href="#multiplatform"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Penpot 基于网络，不依赖于操作系统或本地安装，您只需要运行现代浏览器。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放标准</font></font></h3><a id="user-content-open-standards" class="anchor" aria-label="永久链接：开放标准" href="#open-standards"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Penpot 文件使用 SVG，与其他设计和原型工具不同，它与大多数矢量工具兼容，技术友好，并且非常易于在网络上使用。</font><font style="vertical-align: inherit;">我们确保您永远拥有自己的作品。</font></font></p>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ff585052be9a7ed0f5100dac8fbf0920f58bbf1a25ad7fedbfd11d070cfbf5bb/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d6f70656e2e706e67"><img src="https://camo.githubusercontent.com/ff585052be9a7ed0f5100dac8fbf0920f58bbf1a25ad7fedbfd11d070cfbf5bb/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d6f70656e2e706e67" alt="开源" style="width: 65%; max-width: 100%;" data-canonical-src="https://penpot.app/images/readme/git-open.png"></a>
 </p>
-
-
-## Getting started ##
-
-### Install with Elestio ###
-[Elestio](https://elest.io/) offers a fully managed service for on-premise instances of a selection of open-source software! This means you can deploy a dedicated instance of Penpot in just 3 minutes with no technical knowledge needed.
-
-You don’t need to worry about DNS configuration, SMTP, backups, SSL certificates, OS & Penpot upgrades, and much more.
-
-[Get started with Elestio.](https://help.penpot.app/technical-guide/getting-started/#install-with-elestio)
-
-### Install with Docker ###
-
-You can also get started with Penpot locally or self-host it with **docker** and **docker-compose**.
-
-Here’s a step-by-step guide on [getting started with Docker.](https://help.penpot.app/technical-guide/getting-started/#install-with-docker)
-
-### Penpot cloud app ###
-
-If you prefer not to install Penpot in a local environment, [login or register on our Penpot cloud app](https://design.penpot.app). Create a team to work together on projects and share design assets or jump right away into Penpot and **start designing** on your own.
-
-<p align="center">
-  <img src="https://penpot.app/images/readme/git-self-host.png" alt="Getting started" style="width: 65%;">
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：开始使用" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Elestio 安装</font></font></h3><a id="user-content-install-with-elestio" class="anchor" aria-label="永久链接：使用 Elestio 安装" href="#install-with-elestio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://elest.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elestio</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为精选开源软件的本地实例提供完全托管的服务！</font><font style="vertical-align: inherit;">这意味着您只需 3 分钟即可部署 Penpot 的专用实例，无需任何技术知识。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您无需担心 DNS 配置、SMTP、备份、SSL 证书、操作系统和 Penpot 升级等等。</font></font></p>
+<p dir="auto"><a href="https://help.penpot.app/technical-guide/getting-started/#install-with-elestio" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始使用 Elestio。</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Docker 安装</font></font></h3><a id="user-content-install-with-docker" class="anchor" aria-label="永久链接：使用 Docker 安装" href="#install-with-docker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以在本地开始使用 Penpot 或使用</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docker</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docker-compose</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自行托管它。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><a href="https://help.penpot.app/technical-guide/getting-started/#install-with-docker" rel="nofollow"><font style="vertical-align: inherit;">这是Docker 入门的</font></a><font style="vertical-align: inherit;">分步指南。</font></font><a href="https://help.penpot.app/technical-guide/getting-started/#install-with-docker" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔罐云应用</font></font></h3><a id="user-content-penpot-cloud-app" class="anchor" aria-label="永久链接：Penpot 云应用程序" href="#penpot-cloud-app"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想在本地环境中安装 Penpot，</font></font><a href="https://design.penpot.app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请登录或注册我们的 Penpot 云应用程序</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">创建一个团队来共同处理项目并共享设计资产，或者立即跳入 Penpot 并开始</font><font style="vertical-align: inherit;">自己</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设计。</font></font></strong><font style="vertical-align: inherit;"></font></p>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3ff0bfbe5af83d176024d4c02580e427b791bb7d804e9de1ee978638f9d1d31d/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d73656c662d686f73742e706e67"><img src="https://camo.githubusercontent.com/3ff0bfbe5af83d176024d4c02580e427b791bb7d804e9de1ee978638f9d1d31d/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d73656c662d686f73742e706e67" alt="入门" style="width: 65%; max-width: 100%;" data-canonical-src="https://penpot.app/images/readme/git-self-host.png"></a>
 </p>
-
-## Community ##
-
-We love the open source software community. Contributing is our passion and if it’s yours too, [participate](https://community.penpot.app/) and [improve](https://community.penpot.app/c/help-us-improve-penpot/7) Penpot. All your ideas and code are welcome!
-
-If you need help or have any questions; if you’d like to share your experience using Penpot or get inspired; if you’d rather meet our community of developers and designers, [join our Community](https://community.penpot.app/)!
-
-You will find the following categories:
-- [Ask the Community](https://community.penpot.app/c/ask-for-help-using-penpot/6)
-- [Troubleshooting](https://community.penpot.app/c/technical/8)
-- [Help us Improve Penpot](https://community.penpot.app/c/help-us-improve-penpot/7)
-- [#MadeWithPenpot](https://community.penpot.app/c/madewithpenpot/9)
-- [Events and Announcements](https://community.penpot.app/c/announcements/5)
-- [Inside Penpot](https://community.penpot.app/c/inside-penpot/21)
-- [Penpot in your language](https://community.penpot.app/c/penpot-in-your-language/12)
-
-<p align="center">
-  <img src="https://penpot.app/images/readme/git-collaborate.png" alt="Communnity" style="width: 65%;">
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></h2><a id="user-content-community" class="anchor" aria-label="永久链接：社区" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们热爱开源软件社区。</font><font style="vertical-align: inherit;">贡献是我们的热情，如果您也是如此，</font></font><a href="https://community.penpot.app/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参与</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><a href="https://community.penpot.app/c/help-us-improve-penpot/7" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改进</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Penpot。</font><font style="vertical-align: inherit;">欢迎您提出所有想法和代码！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要帮助或有任何疑问；</font><font style="vertical-align: inherit;">如果您想分享使用 Penpot 的经验或获得灵感；</font><font style="vertical-align: inherit;">如果您想认识我们的开发人员和设计师社区，</font></font><a href="https://community.penpot.app/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请加入我们的社区</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您会发现以下类别：</font></font></p>
+<ul dir="auto">
+<li><a href="https://community.penpot.app/c/ask-for-help-using-penpot/6" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">询问社区</font></font></a></li>
+<li><a href="https://community.penpot.app/c/technical/8" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">故障排除</font></font></a></li>
+<li><a href="https://community.penpot.app/c/help-us-improve-penpot/7" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帮助我们改进笔罐</font></font></a></li>
+<li><a href="https://community.penpot.app/c/madewithpenpot/9" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#MadeWithPenpot</font></font></a></li>
+<li><a href="https://community.penpot.app/c/announcements/5" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">活动和公告</font></font></a></li>
+<li><a href="https://community.penpot.app/c/inside-penpot/21" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔罐内部</font></font></a></li>
+<li><a href="https://community.penpot.app/c/penpot-in-your-language/12" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔罐 用您的语言</font></font></a></li>
+</ul>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/efa0e1bcd99131af7ffb8694a1b4e54072dc9f7ff7ec3460177711ca0f861997/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d636f6c6c61626f726174652e706e67"><img src="https://camo.githubusercontent.com/efa0e1bcd99131af7ffb8694a1b4e54072dc9f7ff7ec3460177711ca0f861997/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d636f6c6c61626f726174652e706e67" alt="社区" style="width: 65%; max-width: 100%;" data-canonical-src="https://penpot.app/images/readme/git-collaborate.png"></a>
 </p>
-
-## Contributing ##
-
-Every sort of contribution will be very helpful to enhance Penpot. How you’ll participate? All your ideas, designs and code are welcome:
-
-- Invite your [team to join](https://design.penpot.app/#/auth/register)
-- Star this repo and follow us on Social Media:  [Twitter](https://twitter.com/penpotapp), [Instagram](https://instagram.com/penpot.app), [Youtube](https://www.youtube.com/c/Penpot) or [Mastodon](https://fosstodon.org/@penpot/).
-- Participate in the [Community](https://community.penpot.app/) asking and answering questions, reacting to others’ articles or opening your own conversations.
-- Report bugs with our easy [guide for bugs hunting](https://help.penpot.app/contributing-guide/reporting-bugs/) or [GitHub issues](https://github.com/penpot/penpot/issues)
-- Create and [share Libraries & templates](https://penpot.app/libraries-templates.html) that will be helpful for the community
-- Become a [translator](https://help.penpot.app/contributing-guide/translations)
-- Give feedback: [Mail us](mailto:support@penpot.app)
-- **Contribute to Penpot's code:** [Watch this video](https://www.youtube.com/watch?v=TpN0osiY-8k) by Alejandro Alonso, CIO and developer at Penpot, where he gives us a hands-on demo of how to use Penpot’s repository and make changes in both front and back end
-
-To find (almost) everything you need to know on how to contribute to Penpot, refer to the [contributing-guide](https://help.penpot.app/contributing-guide/).
-
-<p align="center">
-  <img src="https://penpot.app/images/readme/git-community.png" alt="Contributing" style="width: 65%;">
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每一种贡献都会对Penpot的提升有很大帮助。</font><font style="vertical-align: inherit;">你将如何参与？</font><font style="vertical-align: inherit;">欢迎您提出所有想法、设计和代码：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邀请您的</font></font><a href="https://design.penpot.app/#/auth/register" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">团队加入</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为这个仓库加注星标并在社交媒体上关注我们：   </font></font><a href="https://twitter.com/penpotapp" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://instagram.com/penpot.app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instagram</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://www.youtube.com/c/Penpot" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Youtube</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://fosstodon.org/@penpot/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mastodon</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参与</font></font><a href="https://community.penpot.app/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提问和回答问题、对他人的文章做出反应或打开自己的对话。</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://help.penpot.app/contributing-guide/reporting-bugs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用我们的错误搜寻</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font><a href="https://github.com/penpot/penpot/issues"><font style="vertical-align: inherit;">GitHub 问题</font></a><font style="vertical-align: inherit;">的简单指南报告错误</font></font><a href="https://github.com/penpot/penpot/issues"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建和共享</font><font style="vertical-align: inherit;">对社区有帮助的</font></font><a href="https://penpot.app/libraries-templates.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库和模板</font></font></a><font style="vertical-align: inherit;"></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为一名</font></font><a href="https://help.penpot.app/contributing-guide/translations" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">翻译员</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供反馈：</font></font><a href="mailto:support@penpot.app"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给我们发邮件</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 Penpot 的代码做出贡献：</font></font></strong> <a href="https://www.youtube.com/watch?v=TpN0osiY-8k" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观看 Penpot 首席信息官兼开发人员 Alejandro Alonso 制作的视频</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，他为我们提供了如何使用 Penpot 存储库并在前端和后端进行更改的实践演示</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要找到（几乎）您需要了解的有关如何为 Penpot 做出贡献的所有信息，请参阅</font></font><a href="https://help.penpot.app/contributing-guide/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9121f92927fcdb2f3d47a827553366ec1953881ca29f42698729db4e1a531319/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d636f6d6d756e6974792e706e67"><img src="https://camo.githubusercontent.com/9121f92927fcdb2f3d47a827553366ec1953881ca29f42698729db4e1a531319/68747470733a2f2f70656e706f742e6170702f696d616765732f726561646d652f6769742d636f6d6d756e6974792e706e67" alt="贡献" style="width: 65%; max-width: 100%;" data-canonical-src="https://penpot.app/images/readme/git-community.png"></a>
 </p>
-
-## Resources ##
-
-You can ask and answer questions, have open-ended conversations, and follow along on decisions affecting the project.
-
-💾 [Documentation](https://help.penpot.app/technical-guide/)
-
-🚀 [Getting Started](https://help.penpot.app/technical-guide/getting-started/)
-
-✏️ [Tutorials](https://www.youtube.com/playlist?list=PLgcCPfOv5v54WpXhHmNO7T-YC7AE-SRsr)
-
-🏘️ [Architecture](https://help.penpot.app/technical-guide/developer/architecture/)
-
-📚 [Dev Diaries](https://penpot.app/dev-diaries.html)
-
-
-## License ##
-
-```
-This Source Code Form is subject to the terms of the Mozilla Public
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></h2><a id="user-content-resources" class="anchor" aria-label="永久链接：资源" href="#resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以提出和回答问题，进行开放式对话，并跟进影响项目的决策。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💾</font></font><a href="https://help.penpot.app/technical-guide/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚀</font></font><a href="https://help.penpot.app/technical-guide/getting-started/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始使用</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✏️</font></font><a href="https://www.youtube.com/playlist?list=PLgcCPfOv5v54WpXhHmNO7T-YC7AE-SRsr" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🏘️</font></font><a href="https://help.penpot.app/technical-guide/developer/architecture/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建筑</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📚</font></font><a href="https://penpot.app/dev-diaries.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发日记</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>This Source Code Form is subject to the terms of the Mozilla Public
 License, v. 2.0. If a copy of the MPL was not distributed with this
 file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 Copyright (c) KALEIDOS INC
-```
-Penpot is a Kaleidos’ [open source project](https://kaleidos.net/products)
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+Copyright (c) KALEIDOS INC" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Penpot是Kaleidos的</font></font><a href="https://kaleidos.net/products" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源项目</font></font></a></p>
+</article></div>
